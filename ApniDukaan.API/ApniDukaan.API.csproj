@@ -20,6 +20,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.OpenApi" Version="2.7.6" />
     <!-- Microsoft.OpenApi removed to avoid version conflict with Microsoft.AspNetCore.OpenApi source generators -->
   </ItemGroup>
 

@@ -12,7 +12,6 @@ namespace ApniDukaan.Domain.Entities
         public string PasswordHash { get; set; } = string.Empty;
         public string MobileNumber { get; set; } = string.Empty;
         public Guid RoleId { get; set; }
-        public int DisplayOrder { get; set; }
         public bool IsActive { get; set; } 
         public bool IsDeleted { get; set; }
         public DateTime CreatedAt { get; set; }
