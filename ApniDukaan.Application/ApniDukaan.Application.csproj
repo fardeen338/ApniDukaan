@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="Features\Authentication\Login\" />
+    <Folder Include="Features\Authentication\Register\" />
+    <Folder Include="Services\" />
+    <Folder Include="Ìnterfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApniDukaan.Domain\ApniDukaan.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

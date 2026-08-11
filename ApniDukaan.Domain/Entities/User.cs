@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ApniDukaan.Domain.Entities
+{
+    public class User
+    {
+        public Guid UserId { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string PasswordHash { get; set; } = string.Empty;
+        public string MobileNumber { get; set; } = string.Empty;
+        public Guid RoleId { get; set; }
+        public int DisplayOrder { get; set; }
+        public bool IsActive { get; set; } 
+        public bool IsDeleted { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+}

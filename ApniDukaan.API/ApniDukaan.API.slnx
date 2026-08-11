@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="F:/Project Data/ApniDukaan/ApniDukaanAPI/ApniDukaan.API/ApniDukaan.API.csproj" />
+  <Project Path="F:/Project Data/ApniDukaan/ApniDukaanAPI/ApniDukaan.Application/ApniDukaan.Application.csproj" />
+  <Project Path="F:/Project Data/ApniDukaan/ApniDukaanAPI/ApniDukaan.Domain/ApniDukaan.Domain.csproj" />
+  <Project Path="F:/Project Data/ApniDukaan/ApniDukaanAPI/ApniDukaan.Infrastructure/ApniDukaan.Infrastructure.csproj" />
+</Solution>
