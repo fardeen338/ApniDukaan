@@ -14,7 +14,6 @@ namespace ApniDukaan.Infrastructure.Persistence.Configurations
             builder.HasIndex(u => u.Email).IsUnique();
             builder.Property(u => u.PasswordHash).IsRequired().HasMaxLength(255);
             builder.Property(u => u.MobileNumber).IsRequired().HasMaxLength(16).IsUnicode(false);
-            builder.HasOne<Role>().WithMany().HasForeignKey(u => u.RoleId).OnDelete(DeleteBehavior.Restrict);
             builder.Property(u => u.IsActive).IsRequired().HasDefaultValue(true);
             builder.Property(u => u.IsDeleted).IsRequired().HasDefaultValue(false);
             builder.Property(u => u.CreatedAt).HasDefaultValueSql("SYSDATETIME()");

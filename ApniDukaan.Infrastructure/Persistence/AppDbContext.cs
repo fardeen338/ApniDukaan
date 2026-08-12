@@ -12,6 +12,8 @@ namespace ApniDukaan.Infrastructure.Persistence
 
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<Shop> Shops { get; set; }
+        public DbSet<ShopUser> ShopUsers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
