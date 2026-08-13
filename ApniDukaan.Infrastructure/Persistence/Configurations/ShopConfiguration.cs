@@ -15,7 +15,7 @@ namespace ApniDukaan.Infrastructure.Persistence.Configurations
             builder.Property(s => s.ShopName).IsRequired().HasMaxLength(80);
             builder.Property(s => s.MobileNumber).HasMaxLength(16).IsUnicode(false);
             builder.Property(s => s.Email).IsRequired().HasMaxLength(120);
-            builder.Property(s => s.Address).IsRequired().HasMaxLength(255);
+            builder.Property(s => s.Address).HasMaxLength(255);
             builder.Property(s => s.GSTNumber).HasMaxLength(15).IsUnicode(false); ;
             builder.Property(s => s.IsActive).HasDefaultValue(true);
             builder.Property(s => s.IsDeleted).HasDefaultValue(false);
